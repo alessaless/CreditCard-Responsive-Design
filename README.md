@@ -1,6 +1,6 @@
 # CreditCard-Responsive-Design
 A very simple credit card responsive design that you can use in your website.
-Front and Retro, with rotate animation.
+Front and Retro, with 3d rotate animation.
 If you like it leave me a star :)
 
 
