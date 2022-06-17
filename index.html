@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CreditCardResponsive</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Raleway:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <div class="creditcard" id="creditcard">
+            <div id="front">
+                <img src="images/visa.png" alt="Visa" class="logoVisa"><br><br><br>
+                <span class="cardNumber">1234 1234 1234 1234</span>
+                <span class="cardOwner">Name Surname</span><br>
+                <span class="cardExpirationDate">10/22</span>
+            </div>
+            <div id="back">
+                <br>
+                <div class="blackBand"></div> <br>
+                <span class="cardCVV">123</span> <br><br>
+                <span class="thanks">
+                    Hope you appreciate it! <br>
+                    Please leave a star :)
+                </span>
+            </div>
+        </div>
+        <button onclick="rotateCard()" class="button">Rotate</button>
+    </body>
+    <script src="script/script.js"></script>
+</html>
